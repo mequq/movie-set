@@ -1,0 +1,21 @@
+---
+Server: 
+  Port: "9090"
+  Host: "0.0.0.0"
+Redis: 
+  Host: "127.0.0.1"
+  Port: "6379"
+  Password: ""
+  DB: 0
+  PoolSize: 100
+  MinIdleConns: 10
+  DialTimeout: 5
+  ReadTimeout: 3
+  WriteTimeout: 3
+Mongo:
+  Host: "127.0.0.1"
+  Port: "27017"
+  Username: ""
+  Password: ""
+  DB: "test"
+  
